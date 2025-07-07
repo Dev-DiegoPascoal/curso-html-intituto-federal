@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Aplica a mesma família de fontes a todos os elementos */
+}
+
+body {
+    background-color: #f4f4f4;
+}
+p {
+    color: red;
+    font-size: 16px;
+}
+
+.botao {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#main-header {
+    background-color: #4ab629;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+[data-info] {
+    background-color: yellow;
+    text-align: center;
+}
+input[type="text"] {
+    border: 1px solid gray;
+    text-align: center;
+}
+div[class~="example"] {
+    color: red;
+}
+a[href^="https"] {
+    color: green;
+}
+img[src$=".jpg"] {
+    border: 2px solid black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+li:hover {
+    background-color: lightblue; /* Muda a cor de fundo ao passar o mouse */
+}
+li:nth-child(odd) {
+    color: red; /* Cor vermelha para itens ímpares */
+}
+li:last-child {
+    font-weight: bold; /* Negrito para o último item */
+}
+
+p::before {
+    content: "Nota: ";
+    color: red;
+    font-weight: bold;
+}
+p::after {
+    content: " (leia com atenção)";
+    color: blue;
+    font-style: italic;
+}
+p::first-letter {
+    font-size: 200%;
+    color: green;
+}
+
+.texto-padrao {
+    color: blue; /* Cor padrão para todos os parágrafos com classe "texto-padrao" */
+}
+.texto-padrao {
+    color: red !important; /* Esta cor tem prioridade sobre a azul, mesmo sendo definida depois */
+}
+.texto-padrao {
+    color: yellow; /* Outra cor padrão para todos os parágrafos com classe "texto-padrao" */
+}

@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/styles.css">
     <title>Meu Projeto HTML</title>
 </head>
 <body>
-    <h1>Bem-vindo ao meu Projeto HTML</h1>
+    <header id="main-header">
+        <h1>Bem-vindo ao Nosso Site!</h1>
+    </header>
     <p>Este é um parágrafo de exemplo!</p>
     <img src="imagens/imagem.jpg" alt="Descrição da Imagem" title="Título da Imagem" style="width: 300px; height: 200px; border: 1px solid black;">
 
@@ -22,7 +25,42 @@
     <h2 id="secao2">Seção 2</h2>
     <p>Esta é a Seção 2 do documento.</p>
 
+    <h1 style="color: navy; font-size: 24px;">Título com Estilo Inline</h1>
+    <p style="color: green; font-weight: bold;">Este parágrafo é estilizado diretamente no elemento.</p>
+    <div style="padding: 20px; border: 1px solid black;">
+        Esta div possui um padding e uma borda definidos inline.
+    </div><br>
+    <p class="texto-padrao">Este é um parágrafo importante que precisa de destaque especial.</p>
+    <br>
+
+    <div data-info="temp">Cadastro</div><br>
+        <input type="text" placeholder="Digite seu nome">
+        <br><br> 
+
+        <label for="">Escolha seu curso:</label>
+        <ul>
+            <li>Engenharia</li>
+            <li>Butrição</li>
+            <li>Pedagogia</li>
+            <li>Direito</li>
+        </ul><br>
+
+        <p>Este é um exemplo simples que usa pseudo-elementos para adicionar conteúdo e estilizar a primeira letra.</p>
+
+
+        <div class="user-profile example">Perfil do Usuário</div>
+        <a href="https://www.example.com">Visite nosso site</a><br>
+        <img src="images/photo.jpg">
+
+        <button input  class="botao">Botão 1 com Estilo</button>
+        <button class="botao">Botão 2 com Estilo</button>
+        <button>Botão 3 sem Estilo</button><br><br>  
+
     <a href="https://www.example.com" target="_top">Abrir no topo da janela</a>
+
+    <a href="https://dev-diegopascoal.github.io/meu_portifolio/">
+    <img src="../meu-projeto-html/imagens/imagem.jpg" alt="Descrição da Imagem">
+</a>
 
     <picture>
         <source media="(min-width: 800px)" srcset="image-large.jpg">
