@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    /* Aplica a mesma família de fontes a todos os elementos */
 }
 
 body {
@@ -54,23 +53,23 @@ li {
     margin-bottom: 5px;
 }
 li:hover {
-    background-color: lightblue; /* Muda a cor de fundo ao passar o mouse */
+    background-color: lightblue; 
 }
 li:nth-child(odd) {
-    color: red; /* Cor vermelha para itens ímpares */
+    color: red; 
 }
 li:last-child {
-    font-weight: bold; /* Negrito para o último item */
+    font-weight: bold; 
 }
 
 .texto-padrao {
-    color: blue; /* Cor padrão para todos os parágrafos com classe "texto-padrao" */
+    color: blue;
 }
 .texto-padrao {
-    color: red !important; /* Esta cor tem prioridade sobre a azul, mesmo sendo definida depois */
+    color: red !important; 
 }
 .texto-padrao {
-    color: yellow; /* Outra cor padrão para todos os parágrafos com classe "texto-padrao" */
+    color: yellow;
 }
 
 .main-element {
